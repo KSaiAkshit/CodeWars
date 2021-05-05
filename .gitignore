@@ -1,4 +1,11 @@
+# Jekyll
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Svelte
+
+# General
+**/*.map
+**/.DS_Store
