@@ -5,6 +5,8 @@ _site/
 .jekyll-metadata
 
 # Svelte
+**/node_modules/
+node_modules/
 
 # General
 **/*.map
