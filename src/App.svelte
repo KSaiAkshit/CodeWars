@@ -22,7 +22,7 @@
 				<div slot="lhs">
 					<iframe
 						title="Web Demo by {peep.name}"
-						src="./svelte/{peep.name}"
+						src="./{team}/{peep.name}"
 						frameborder="0"
 					/>
 				</div>
