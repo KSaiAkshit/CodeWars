@@ -1,32 +1,27 @@
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: SEDS CELESTIA CodeWars 
-email: amulbutterwaal@gmail.com
-description: >- 
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-  #WakandaForever
-baseurl: "" # e.g. /blog
-url: "" #  e.g. http://example.com
-twitter_username: PiyushSMohite
-github_username:  git-pi-e
+title:              Apollo
+email:              amulbutterwaal@gmail.com
+description:        The Greek God of Music, Poetry, Light, Prophecy, and Medicine
 
 
-theme: minima
+author:             Pi
+baseurl:            "/clean-blog"
+url:                "https://git-pi-e.github.io"
+
+# Social Profiles
+twitter_username:   ApollotheGod2
+github_username:    git-pi-e
+facebook_username:  spotify
+instagram_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
-
-
-
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
