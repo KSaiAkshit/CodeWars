@@ -31,7 +31,7 @@ body{
 #nav div
 {
 	flex: 1;
-	font-size: 30px; 
+	font-size: 30px;
 }
 #nav button
 {
@@ -81,7 +81,7 @@ body{
 }
 
 
-img 
+img
 {
 	width: 220px;
 	display: inline-block;
@@ -89,6 +89,7 @@ img
 
 .image
 {
+  /* DISPLAY INLINE BLOCK AND FLOAT SHOULDN"T BE ADDED TOGETHER */
 	display: inline-block;
 	float: right;
 	padding-top: 120px;
@@ -114,7 +115,7 @@ img
 }
 
 .home2 p
-{	
+{
 	padding: 200px;
 	font-size: 25px;
 	font-weight: bold;
@@ -127,8 +128,10 @@ h2
 	margin-bottom: 40px;
 	margin-left: 4%;
 }
+
 .container1
-{	margin-top: 6%;
+{
+  margin-top: 6%;
 	display: flex;
 	margin-bottom: 8%;
 }
@@ -174,9 +177,10 @@ h2
 	flex:1;
 }
 
+/* AVOID EMPTY BOXES, TRY SWITCHING TO SCSS to automatically remove these */
  .images div
 {
- 
+
 }
 
 .imgA img , .imgB img , .imgC img
@@ -184,6 +188,7 @@ h2
  margin:0 24%;
 }
 
+/* AVOID ERRORS IN MAIN CSS, some browsers stop compiling at one error */
 .container1 div
 {	padding-left: 3%;
 	margin:0 5%;
